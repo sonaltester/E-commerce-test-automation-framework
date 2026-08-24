@@ -1,5 +1,4 @@
-# E-commerce-test-automation-framework
-Automation Testing Project
+<h1>Automation Testing Project</h1>
 # E-Commerce Test Automation Framework
 
 ## Project Overview
