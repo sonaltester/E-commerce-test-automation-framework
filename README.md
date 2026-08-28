@@ -2,9 +2,11 @@
 
 ## Project Overview
 
-Selenium TestNG automation framework for testing an e-commerce web application.
+This project is a Selenium-based test automation framework developed for testing an E-Commerce web application.
 
-## Tech Stack
+The framework automates important user flows such as Login, Product Selection, Cart Management, and Checkout.
+
+## ## Technologies Used
 
 - Java
 - Selenium WebDriver
@@ -12,6 +14,7 @@ Selenium TestNG automation framework for testing an e-commerce web application.
 - Maven
 - Page Object Model
 - Git & GitHub
+-  Jenkins
 
 ## Automation Coverage
 
@@ -30,13 +33,19 @@ Selenium TestNG automation framework for testing an e-commerce web application.
 
 ## Framework Structure
 
-- BaseTest
-- Page Objects
-- Test Classes
-- TestNG XML
-- Screenshots
-- Reports
-
+```text
+src
+├── main
+│   └── java
+│       └── org.example
+│
+└── test
+    └── java
+        └── org.example
+            ├── base
+            ├── pages
+            └── tests
+            
 ## How to Run
 
 ```bash
